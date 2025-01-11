@@ -61,6 +61,12 @@ h1 {
   line-height: auto;
   color: #0e0e0e;
 }
+h2 {
+  font-size: 40px;
+  font-weight: bold;
+  line-height: auto;
+  color: #0e0e0e;
+}
 button {
   border: none;
   background-color: #006a50;
@@ -70,12 +76,30 @@ button {
   padding: 17px 34px;
   border-radius: 8px;
 }
-.container {
-  width: 1280px;
-  margin: 0 auto;
+.bluebg {
+  background-color: #d5e1f5;
+}
+.greenbg {
+  background-color: #c6e4d6;
+}
+.yellowbg {
+  background-color: #f7ebcf;
+}
+
+/* body styles */
+body {
+  background-color: #f5f5f5;
 }
 
 /* main styles */
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  padding-bottom: 80px;
+  width: 1280px;
+  margin: 0 auto;
+}
 
 /* hero section */
 .hero {
@@ -100,4 +124,54 @@ button {
 .hero h3 {
   color: rgba(14, 14, 14, 0.5);
   font-size: 24;
+}
+
+/* future section */
+.future {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.future .content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.vision-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+.vision {
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 24px;
+  border-radius: 16px;
+}
+.vision .content{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.vision img {
+  width: 64px;
+}
+.vision h4{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+}
+.vision button{
+    padding: 11px 20px;
+    width: fit-content;
+}
+.bluebg button{
+    background: #5490f5;
+}
+.greenbg button{
+    background: #09a15c;
+}
+.yellowbg button{
+    background: #ffc239;
 }
