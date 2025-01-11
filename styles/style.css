@@ -205,6 +205,7 @@ main {
 }
 .news > img {
   border-radius: 24px;
+  width: 408px;
 }
 .news .content {
   display: flex;
@@ -219,6 +220,7 @@ main {
 .news .content .main img {
   height: 40px;
   width: fit-content;
+  border-radius: 8px;
 }
 .news .content .main h3 {
   font-weight: bold;
