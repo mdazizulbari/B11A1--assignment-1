@@ -75,14 +75,19 @@ button {
   font-weight: 600;
   padding: 17px 34px;
   border-radius: 8px;
+  transition: 0.3s ease;
 }
-.bluebg {
+button:hover {
+  transform: scale(1.1);
+}
+
+.bluebg:hover {
   background-color: #d5e1f5;
 }
-.greenbg {
+.greenbg:hover {
   background-color: #c6e4d6;
 }
-.yellowbg {
+.yellowbg:hover {
   background-color: #f7ebcf;
 }
 
@@ -149,6 +154,8 @@ main {
   justify-content: space-between;
   gap: 24px;
   border-radius: 16px;
+  background: white;
+  transition: 0.3s ease;
 }
 .vision .content {
   display: flex;
@@ -253,12 +260,16 @@ main {
   gap: 24px;
   width: 1071px;
 }
-.donate .money h2{
-    color: rgba(14, 14, 14, 0.8);
-    background: white;
-    border-radius: 16px;
-    padding: 40px 0;
-    border: 1px solid rgba(14, 14, 14, 0.15);
+.donate .money h2 {
+  color: rgba(14, 14, 14, 0.8);
+  background: white;
+  border-radius: 16px;
+  padding: 40px 0;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  transition: 0.3s ease;
+}
+.donate .money h2:hover {
+  background: #c6e4d6;
 }
 .donate input {
   width: 1032px;
