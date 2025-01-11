@@ -150,7 +150,7 @@ main {
   gap: 24px;
   border-radius: 16px;
 }
-.vision .content{
+.vision .content {
   display: flex;
   flex-direction: column;
   gap: 24px;
@@ -158,75 +158,116 @@ main {
 .vision img {
   width: 64px;
 }
-.vision h4{
-    color: rgba(14, 14, 14, 0.8);
-    font-size: 20px;
+.vision h4 {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 20px;
 }
-.vision button{
-    padding: 11px 20px;
-    width: fit-content;
-    font-size: 16px;
+.vision button {
+  padding: 11px 20px;
+  width: fit-content;
+  font-size: 16px;
 }
-.bluebg button{
-    background: #5490f5;
+.bluebg button {
+  background: #5490f5;
 }
-.greenbg button{
-    background: #09a15c;
+.greenbg button {
+  background: #09a15c;
 }
-.yellowbg button{
-    background: #ffc239;
+.yellowbg button {
+  background: #ffc239;
 }
 
 /* news section */
-.news-sect{
-    display: flex;
-    flex-direction: column;
-    gap: 32px;
+.news-sect {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
 }
 
-.news-sect .head{
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
+.news-sect .head {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
 }
-.news{
-    padding: 56px 48px;
-    background: white;
-    border-radius: 24px;
-    display: flex;
-    gap: 32px;
+.news {
+  padding: 56px 48px;
+  background: white;
+  border-radius: 24px;
+  display: flex;
+  gap: 32px;
 }
-.news>img{
-    border-radius: 24px;
+.news > img {
+  border-radius: 24px;
 }
-.news .content{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+.news .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
-.news .content .main{
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
+.news .content .main {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }
-.news .content .main img{
-    height: 40px;
-    width: fit-content;
+.news .content .main img {
+  height: 40px;
+  width: fit-content;
 }
-.news .content .main h3{
-    font-weight: bold;
-    font-size: 32px;
-    line-height: auto;
-    color: rgba(14, 14, 14, 0.8);
+.news .content .main h3 {
+  font-weight: bold;
+  font-size: 32px;
+  line-height: auto;
+  color: rgba(14, 14, 14, 0.8);
 }
-.news .content .main .post{
-    display: flex;
-    gap: 12px;
+.news .content .main .post {
+  display: flex;
+  gap: 12px;
 }
-.news .content button{
-    padding: 13px 24px;
-    width: fit-content;
+.news .content button {
+  padding: 13px 24px;
+  width: fit-content;
 }
 .news-sect .news:nth-of-type(3) {
   flex-direction: row-reverse;
+}
+
+/* donate section */
+.donate {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: center;
+  text-align: center;
+}
+.donate .head {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.donate .head p {
+  width: 1104px;
+}
+.donate .money {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  width: 1071px;
+}
+.donate .money h2{
+    color: rgba(14, 14, 14, 0.8);
+    background: white;
+    border-radius: 16px;
+    padding: 40px 0;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+}
+.donate input {
+  width: 1032px;
+  padding: 20px 0;
+  border: none;
+  border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+  font-size: 20px;
+  text-align: center;
+}
+.donate input::placeholder {
+  color: rgba(14, 14, 14, 0.3);
 }
